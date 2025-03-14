@@ -1,0 +1,403 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .content-area{
+        padding: 50px 20px 50px 20px !important;
+    }
+    .hero-content{
+        padding: 50px 20px 100px 20px !important; 
+    }
+    .bgfooter{
+        padding: 50px 20px 0px 20px !important;
+    }
+    .hero-content-title {
+        font-size: 56px;
+    }
+    .hero-content-text{
+        font-size: 22px !important;
+        line-height: 1.8rem !important;
+    }
+    .hero-video-container iframe{
+        width: 280px !important;
+    }
+    .hero-buttons{
+        width: 100%;
+    }
+    .primary-button{
+        width: 100%;
+    }
+    .secondary-button{
+        width: 100%;
+    }
+    .vertical-image{
+        display: none !important;
+    }
+    .casino-container{
+        margin: auto !important;
+        width: 100% !important;
+    }
+    .contest-buttons{
+        flex-direction: column !important;
+        gap: 20px;
+        align-items: center;
+    }
+    .contest-main-title h2 {
+        font-size: 38px !important;
+    }
+    .contest-area{
+        padding: 40px 20px 40px 20px !important;
+    }
+    .highlights-text{
+        max-width: 100% !important;
+        font-size: 24px !important;
+    }
+    .swiper-button-next img, .swiper-button-prev img{
+        width: 55px !important;
+        height: 55px !important;
+    }
+    .swiper-controls{
+        gap: 0 !important;
+    }
+    .track{
+        font-size: 64px !important;
+    }
+    .marquee{
+        height: 150px !important;
+    }
+    .marquee-area{
+        padding: 50px 0px 50px 0px !important;
+    }
+    .section-title-text{
+        max-width: 100% !important;
+    }
+    .casinos-container{
+        padding-top: 50px !important;
+        gap: 50px !important;
+    }
+
+    .casinos-container .casino-container{
+        flex-direction: column !important;
+        gap: 50px !important;
+    }
+    .casinos-container .casino-image-container{
+        width: 90% !important;
+    }
+    .casinos-container .casino-info-container{
+        width: 90% !important;
+        height: 200px !important;
+    }
+    .highlights-video iframe{
+        border-radius: 10px !important;
+    }
+    .copyright{
+        flex-direction: column !important;
+        align-items: center !important;
+        padding-top: 1rem !important;
+    }
+    .copyright-item{
+        padding: 0 !important;
+    }
+    .youtube-live-button{
+        left: 20px !important;
+    }
+    .footer-info{
+        padding: 50px 0px 50px 0px;
+    }
+    .footer-info-section{
+        width: 100% !important;
+    }
+    thead, tr{
+        height: 50px !important;
+    }
+    table{
+        min-width: 540px !important;
+    }
+    .table-area{
+        overflow-x: scroll !important;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Your styles for small screens */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Your styles for medium screens */
+}
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+    /* Your styles for medium screens */
+    .mobile-site-logo{
+        width: 50%;
+    }
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 991.98px) {
+
+.navigationMenu{
+    padding: 100px 40px 100px 40px ;
+}
+.content-area{
+    padding: 100px 40px 100px 40px;
+}
+.hero-content{
+    padding: 100px 40px 100px 40px; 
+}
+.hero-left-container{
+    padding-top: 50px;
+    align-items: center;
+}
+.hero-right-container{
+    align-items: center;
+}
+.hero-content-text{
+    padding-top: 40px;
+    text-align: center;
+}
+.hero-video-container iframe{
+    width: 380px;
+    height: auto;
+    border-radius: 10px;
+    aspect-ratio: 16 / 9;
+}
+.hero-buttons{
+    padding-top: 20px;
+}
+.vertical-image{
+    width: 30%;
+    
+}
+.section-title{
+    font-size: 36px;
+}
+.section-title-text{
+    font-size: 20px;
+    max-width: 80%;
+}
+#featured-casino .section-title-text{
+    max-width: 320px;
+}
+#featured-casino{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: fit-content;
+}
+.casino-container{
+    flex-direction: column;
+    width: 60%;
+    padding: 40px 0px 0px 0px !important;
+    align-items: center;
+}
+.casino-image-container{
+    width: 100%;
+}
+.casino-info-container, .casino-deposit-details{
+    width: 100%;
+    height: 100%;
+}
+.casino-button{
+    margin-top: 20px;
+    width: 100%;
+}
+.swiper-controls{
+    padding: 50px 20px 50px 20px;
+}
+.contest-area{
+    padding: 80px;
+    flex-direction: column !important;
+}
+.contest-right{
+    justify-content: start;
+    padding-top: 40px;
+}
+.contest-info{
+    max-width: 100%;
+}
+.contest-info h5{
+    font-size: 28px;
+}
+.contest-main-title h2{
+    font-size: 48px;
+}
+.contest-main-title p{
+    padding-top: 20px;
+}
+#diagonismoi-button{
+    width: 200px;
+}
+.sticky-child{
+    position: initial;
+}
+.casinos-container{
+    padding: 50px 0px 0px 0px;
+    width: 100%;
+}
+.casinos-container .casino-container{
+    padding: 0;
+    flex-direction: row;
+    width: 100%;
+    gap: 0;
+    justify-content: space-between;
+    
+}
+
+.casinos-container .casino-container a{
+    width: 100%;
+}
+.casinos-container .casino-container .detail{
+    width: 30%;
+}
+.casinos-container .casino-info-container{
+    width: 55%;
+}
+.casinos-container .casino-image-container{
+    width: 40%;
+    height: auto;
+}
+.casinos-container .casino-deposit-details{
+    height: fit-content;
+}
+.casinos-container .casino-title{
+    font-size: 28px;
+}
+.casinos-container a{
+    font-size: 28px;
+    padding-block: 10px;
+    margin-top: 0;
+}
+.marquee-provider{
+    height: 200px;
+}
+.highlights-area{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.highlights-text{
+    padding-top: 100px;
+    font-size: 28px;
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.highlights-video{
+    align-content: end;
+    justify-content: center;
+    height: fit-content;
+    width: 90%;
+}
+.highlights-video iframe{
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+}
+.table-time{
+    line-height: 1rem;
+    font-size: 18px;
+}
+thead{
+    font-size: 18px;
+}
+thead tr th{
+    padding-inline: 10px;
+}
+.bgfooter{
+    padding: 100px 40px 0px 40px;
+}
+.col-12:has(.footer-logo){
+    display: flex;
+    justify-content: center;
+}
+.footer-info{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-info-section{
+    width: 70%;
+    max-width: 600px;
+    padding-top: 40px;
+}
+.youtube-live-button{
+    left: 40px;
+}
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Your styles for large screens */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* Your styles for extra-large screens */
+}
+
+
+@media (min-width: 992px) and (max-width: 1550px) {
+    .content-area{
+        padding: 100px 70px 100px 70px;
+    }
+    .hero-content{
+        padding: 100px 70px 100px 70px; 
+    }
+    .bgfooter{
+        padding: 100px 70px 0px 70px;
+    }
+
+    .vertical-image{
+        width: 30%;
+    }
+    .casino-container{
+        width: 65%;
+    }
+    .casino-info-container{
+        width: 60%;
+        height: 300px;
+    }
+    .casino-button{
+        width: 100%;
+        font-size: 24px;
+    }
+    .detail{
+        width: 30%;
+    }
+    .casinos-container .casino-container{
+        width: 100%;
+    }
+    .casinos-container .casino-info-container{
+        width: auto;
+    }
+    .hero-video-container iframe{
+        width: 380px;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+    .youtube-live-button{
+        left: 70px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .sticky-child{
+        position: initial;
+    }
+}
+@media screen and (min-width: 1550px) {
+    .youtube-live-button{
+        left: 140px;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .navigationMenu{
+        padding: 30px 70px 30px 70px ;
+    }
+}
+
+@media (max-width: 1630px){
+    .casinos-container{
+        padding-top: 150px;
+    }
+}

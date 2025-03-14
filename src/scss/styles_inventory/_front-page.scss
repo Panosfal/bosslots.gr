@@ -1,0 +1,535 @@
+.hero-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+    z-index: 1;
+}
+.bos-hero{
+    position: relative;
+    background-image: url('/wp-content/themes/pfaltsioni/assets/img/hero-slotts.jpg');
+    height: fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-left-container{
+    position: relative;
+    z-index: 2;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero-content{
+    padding: 140px 140px 100px 140px;
+}
+.hero-content-title{
+        font-size: 96px;
+}
+.hero-content-text{
+    font-size: 28px;
+    max-width: 530px;
+    line-height: 2.2rem;
+    font-weight: 300 !important;
+}
+.hero-video-container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: end;
+    margin-right: auto;
+}
+.hero-video-title{
+    text-align: end;
+    line-height: 1rem;
+    margin: 0 !important;
+    font-size: 16;
+    font-weight: 500;
+    
+}
+.hero-right-container{
+    position: relative;
+    z-index: 2;
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+.new-casino-container {
+    display: inline-block;
+    text-decoration: none;
+    margin: 40px 0px 0px 0px;
+  }
+
+  .rotating-text {
+    animation: rotateText 8s linear infinite;
+    transform-origin: 100px 100px;
+  }
+
+  @keyframes rotateText {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .section-header{
+    padding: 0;
+    width: fit-content;
+  }
+  .section-title{
+    font-size: 64px;
+    font-weight: 500;
+  }
+  .section-title-text{
+    font-weight: 300;
+    max-width: 625px;
+    font-size: 24px;
+    padding-top: 30px;
+  }
+  .content-area{
+    padding: 100px 140px 100px 140px;
+  }
+  .casino-container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: end;
+    height: fit-content;
+  }
+  .casino-image-container{
+    max-width: 380px;
+    max-height: 380px;
+    position: relative;
+  }
+  .casino-number{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    color: var(--text);
+    font-size: 20px;
+    background-color: var(--button-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2rem;
+  }
+  .casino-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 500px;
+    height: 380px;
+  }
+  .casino-deposit-details{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .detail{
+    position: relative;
+    width: 25%;
+    max-width: 150px;
+    height: 35px;
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #detail-1::before{
+    content: 'Bonus';
+    position: absolute;
+    top: -20px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+  #detail-2::before{
+    content: 'Free Spins';
+    position: absolute;
+    top: -20px;
+    left: 0;
+    text-wrap: nowrap;
+  }
+  #detail-3::before{
+    content: 'Wager';
+    text-wrap: nowrap;
+    position: absolute;
+    top: -20px;
+    left: 0;
+  }
+.casino-title{
+    font-size: 40px;
+    font-weight: 500;
+}
+.casino-text{
+    font-size: 18px;
+}
+.casino-button{
+    display: block;
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary);
+    font-size: 36px;
+    font-weight: 600;
+    text-decoration: none;
+}
+#featured-casino{
+    position: relative;
+    height: 1000px;
+}
+.vertical-image{
+    padding: 0;
+    position: absolute;
+    background-image: url('/wp-content/themes/pfaltsioni/assets/img/slots-narrow.webp');
+    right: 0;
+    top: 100px;
+    width: 460px;
+    height: 800px;
+}
+.test{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.vertical-image-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    background: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.95) 0%,
+        rgba(0,0,0,0.5) 75%,
+        rgba(0,0,0,0.3) 100%);
+    z-index: 2;
+}
+section:has(#our-team){
+    background-color: var(--primary);
+ 
+}
+
+#our-team{
+    background-color: var(--primary);
+}
+
+.swiper {
+    width: 90%;
+    height: fit-content;
+    padding-block: 100px;
+}
+.swiper-wrapper{
+    margin: auto;
+}
+.swiper-slide {
+    display: flex !important;
+    font-size: 24px;
+    background-color: var(--primary);
+    // padding: 0px 140px 100px 140px;
+}
+.team-container{
+    background-color: var(--primary);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+    padding: 0px 20px 0px 20px;
+}
+.team-member-card{
+    width: fit-content;
+    height: fit-content;
+}
+.team-member-image{
+    aspect-ratio: 9 / 12;
+    width: 100%; /* Adjust width as needed */
+    max-width: 450px;
+}
+.swiper-controls{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: start;
+    align-items: center;
+    padding: 50px 0px 100px 0px;
+    background-color: var(--primary);
+}
+.swiper-button-prev, .swiper-button-next{
+    position: inherit !important;
+    padding: 20px;
+    width: 80px !important;
+    height: 80px !important;
+}
+.swiper-button-prev img, .swiper-button-next img{
+    width: 80px;
+    height: 80px;
+}
+.swiper-button-prev::after, .swiper-button-next::after{
+    content: '' !important;
+    padding: 0;
+}
+.team-member-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    padding-top: 20px;
+}
+.team-member-info a img{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.team-member-title a{
+    display: flex;
+    gap: 5px;
+    align-items: end;
+    text-decoration: none;
+    color: var(--text);
+    font-size: 18px;
+}
+.team-member-title p{
+    margin-bottom: 0;
+}
+.team-member-social{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 20px;
+}
+.team-member-social a img{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+
+.marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 200px;
+    overflow-x: hidden;
+    background-color: var(--primary);
+}
+  
+.track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 50s linear infinite;
+    font-size: 89px;
+    font-weight: 100;
+    background-color: var(--primary);
+    color: var(--text);
+}
+  
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+.contest-area{
+    position: relative;
+    padding: 100px;
+    margin: auto;
+    width: auto;
+    height: fit-content;
+    background-image: url('/wp-content/themes/pfaltsioni/assets/img/slots-narrow.webp');
+    background-position: center;
+    background-size: cover;
+    color: var(--text);
+}
+.contest-area-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(58, 49, 60, 0.85);
+    z-index: 1;
+}
+.contest-left{
+    max-width: 500px;
+}
+.contest-left, .contest-right{
+    z-index: 2;
+}
+.contest-buttons{
+    padding-top: 20px;
+}
+#diagonismoi-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    background-color: var(--secondary100);
+    font-size: 24px;
+    text-decoration: none;
+    color: var(--text);
+}
+.contest-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    max-width: 800px;
+}
+
+.contest-main-title h2{
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.contest-social a img{
+    width: 35px;
+}
+.contest-info{
+    max-width: 320px;
+    height: fit-content;
+    padding: 20px;
+}
+.contest-info h5{
+    font-size: 36px;
+    margin-bottom: 0 !important;
+}
+.contest-info p{
+    padding-left: 46px;
+}
+.contest-info img{
+    width: 36px;
+    height: 36px;
+}
+.sticky-parent{
+    position: relative;
+}
+.content-area.sticky-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+}
+.sticky-child{
+    position: sticky;
+    top: 140px;
+    height: fit-content;
+    margin-right: auto;
+}
+.casinos-container{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 100px;
+    width: auto;
+}
+.casinos-container .casino-image-container{
+    width: 280px;
+    height: 280px;
+}
+.casinos-container .casino-info-container{
+    height: 280px !important;
+}
+.divider{
+    width: 100%;
+    border: 2px solid var(--primary);
+}
+.provider{
+    padding: 20px 60px 20px 60px;
+    width: 300px;
+    object-fit: contain;
+    filter: grayscale(100);
+}
+.marquee-area{
+    padding: 100px 0px 100px 0px;
+}
+
+.marquee-provider {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 300px;
+    overflow-x: hidden;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+  
+.track-provider {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee-provider 30s linear infinite;
+    font-size: 89px;
+    font-weight: 100;
+    background-color: var(--primary);
+    color: var(--text);
+    display: flex;
+}
+  
+@keyframes marquee-provider {
+    from { transform: translateX(-20%); }
+    to { transform: translateX(0); }
+}
+.highlights-area{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between !important;
+}
+.highlights-text{
+    max-width: 50%;
+    font-size: clamp(24px, 4vw, 64px);
+}
+.highlights-video{
+    padding: 0;
+    width: 50%;
+    height: fit-content;
+    aspect-ratio: 16/9;
+}
+iframe{
+    border-radius: 20px;
+}
+.table-area{
+    padding: 100px 0px 100px 0px;
+}
+table{
+    width: 100%;
+    height: fit-content;
+}
+thead, tr{
+    height: 80px;
+}
+thead{
+    font-size: 24px;
+}
+th, td{
+    text-align: center;
+    vertical-align: middle;
+}
+thead tr{
+    background-color: none !important;
+}
+tbody tr:nth-child(odd){
+    background-color: var(--primary);
+    clip-path: xywh(0 0 100% 100% round 1em);
+}
+.table-time{
+    font-size: 24px;
+    font-weight: 600;
+}

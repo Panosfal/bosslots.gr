@@ -1,0 +1,27 @@
+.hero-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.hero-buttons a{
+    text-decoration: none;
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.primary-button{
+    display: block;
+    width: 220px;
+    height: 70px;
+    background-color: var(--button-primary);
+}
+.secondary-button{
+    display: block;
+    width: 220px;
+    height: 70px;
+    border: 2px solid var(--text);
+}
+
