@@ -36,7 +36,10 @@
             </span>
         </button>
         <div class="d-lg-none">
-            <?php echo do_shortcode('[youtube_live_button]'); ?>
+            <?php //echo do_shortcode('[youtube_live_button]'); ?>
+            <a href="https://www.youtube.com/@Bos_slotslive" class="youtube-live-button">
+              <i class="fa fa-circle live-now blink"></i>BOSSLOTS LIVE
+            </a>
         </div>
         <!-- Mobile Navigation -->
 
@@ -70,7 +73,10 @@
         <div class="container-fluid">
             <div class="row">
             <div class="d-none d-lg-flex">
-                <?php echo do_shortcode('[youtube_live_button]'); ?>
+                
+                <a href="https://www.youtube.com/@Bos_slotslive" class="youtube-live-button">
+                    <i class="fa fa-circle live-now blink"></i>BOSSLOTS LIVE
+                </a>
             </div>
             <nav class="navigationMenu text-light d-none d-lg-flex position-fixed">
                 <div class="site-logo">
